@@ -81,11 +81,11 @@
 
     <!-- preloader -->
     <div class="bg-preloader-white"></div>
-    <div class="preloader-white"> <strong style="padding-right: 1%">Welcome to JIT Lanka Tours. Please wait... </strong><br>
+    {{-- <div class="preloader-white"> <strong >Welcome to JIT Lanka Tours. Please wait... </strong><br>
         <div class="mainpreloader">
             <span></span>
         </div>
-    </div>
+    </div> --}}
     <!-- preloader end -->
 
 

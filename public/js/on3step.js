@@ -1,21 +1,19 @@
 jQuery(window).on("load", function () {
     "use strict";
     autoheight(), autoheight1(), autoheight2();
-    var e = jQuery(".preloader, .preloader-white"),
-        a = jQuery(".bg-preloader, .bg-preloader-white"),
+    var a = jQuery(".bg-preloader, .bg-preloader-white"),
         t = jQuery("#main-menu"),
         n = jQuery(".navbar-default-white");
     jQuery("nav a"),
         jQuery(".subnav"),
-        e.fadeOut("slow", function () {
-            a.fadeOut(900),
-                onStep(),
-                n.sticky(),
-                jQuery(window).width(),
-                jQuery(".navbar-toggle").on("click", function () {
-                    t.slideToggle(300), n.toggleClass("fullHeight");
-                });
+        a.fadeOut(900),
+        onStep(),
+        n.sticky(),
+        jQuery(window).width(),
+        jQuery(".navbar-toggle").on("click", function () {
+            t.slideToggle(300), n.toggleClass("fullHeight");
         });
+
     var l = $("#name-contact-1"),
         s = $("#email-contact, input#email-contact"),
         c = $("#message-contact"),
