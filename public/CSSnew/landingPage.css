@@ -1,0 +1,645 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap);
+* {
+    font-family: Montserrat, sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background: #f1fbff;
+}
+.section-padding {
+    padding: 100px 0;
+}
+@media (max-width: 768px) {
+    .slider-container {
+        overflow-x: hidden;
+    }
+    .sliderImages {
+        background-size: contain;
+        width: 100%;
+        height: 100px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 7));
+    }
+}
+.slider12 {
+    background: #fff;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+    height: 75px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.slider12::after,
+.slider12::before {
+    background: linear-gradient(to right, #fff 0, rgba(255, 255, 255, 0) 100%);
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 200px;
+    z-index: 2;
+}
+.slider12::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+.slider12::before {
+    left: 0;
+    top: 0;
+}
+.slider12 .slide-track {
+    animation: 40s linear infinite scroll;
+    display: flex;
+    width: calc(250px * 14);
+}
+.slider12 .slide {
+    height: 100px;
+    width: 250px;
+}
+.Features {
+    padding-top: 15px !important;
+    padding-bottom: 10px;
+    background-color: #fff !important;
+}
+@media (min-width: 992px) {
+    .img-responsive-desktop {
+        width: 230% !important;
+    }
+}
+@media (max-width: 991px) {
+    .img-responsive-desktop {
+        width: 100% !important;
+    }
+}
+.servicesANDtours {
+    padding-top: 50px;
+}
+.tours {
+    padding-top: 10% !important;
+    padding-left: 17% !important;
+    padding-bottom: 10% !important;
+}
+.servicesANDtourContainer {
+    padding-bottom: 50px;
+}
+.tourCard {
+    padding-top: 250px;
+}
+.button-18 {
+    align-items: center;
+    background-color: #105b6b;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
+        "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+        "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 167ms cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 167ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 167ms cubic-bezier(0.4, 0, 0.2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    width: 100%;
+}
+#tripAdvisorBtn,
+.textOne,
+.textThree,
+.textfive1 {
+    font-weight: 700;
+}
+.button-18:focus,
+.button-18:hover {
+    background-color: #09333c;
+    color: #fff;
+}
+.button-18:disabled {
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, 0.08);
+    color: rgba(0, 0, 0, 0.3);
+}
+.textOne {
+    color: #2c5d3d;
+    font-size: 30px;
+    text-align: left;
+}
+.textTwoOne {
+    color: #40a463;
+    font-size: 15px;
+}
+.textThree {
+    color: #40a463;
+    font-size: 30px;
+    text-align: right;
+}
+.textFour {
+    color: #2c5d3d;
+    font-size: 15px;
+    margin-left: 180px;
+    text-align: end;
+}
+.textTwo {
+    color: #40a463;
+    font-size: 17px;
+}
+.textfive1 {
+    color: #0e5727;
+    font-size: 25px;
+    text-align: right;
+}
+#designDev,
+#tripAdvisorBtn,
+.textTourone {
+    text-align: center;
+}
+.textEight {
+    color: #fff;
+    font-size: 11px;
+}
+.textSeven {
+    color: #acffc9;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-size: 25px;
+}
+.textEight1 {
+    color: #77797a;
+    font-size: 15px;
+}
+.cardBox {
+    transition: box-shadow 0.2s;
+}
+.cardBox:hover {
+    box-shadow: 0 10px 20px 5px rgba(0, 0, 0, 0.5);
+    transform: translateY(0);
+}
+.imageCarousel {
+    height: 40px;
+}
+.textTourone {
+    font-size: 35px;
+    font-weight: 600;
+    color: #105b6b;
+    padding-bottom: 10px;
+}
+.textTourTwo {
+    padding-top: 10%;
+    color: #0d363f;
+    font-size: 15px;
+    font-weight: 100;
+    text-align: justify;
+}
+#contactUs,
+.hr,
+.no-padding {
+    padding: 0;
+}
+.textNavOne {
+    color: #f1fbff;
+}
+.lib-panel,
+.row-margin-bottom {
+    margin-bottom: 20px;
+}
+.lib-panel img {
+    width: 100%;
+    background-color: transparent;
+}
+.lib-panel .col-md-6,
+.lib-panel .row {
+    padding: 0;
+    background-color: #fff;
+}
+.lib-panel .lib-row {
+    padding: 0 20px;
+}
+.lib-panel .lib-row.lib-header {
+    background-color: #fff;
+    font-size: 20px;
+    padding: 10px 20px 0;
+}
+.lib-panel .lib-row.lib-header .lib-header-seperator {
+    height: 2px;
+    width: 26px;
+    background-color: #d9d9d9;
+    margin: 7px 0;
+}
+.lib-panel .lib-row.lib-desc {
+    position: relative;
+    height: 100%;
+    display: block;
+    font-size: 13px;
+}
+.lib-panel .lib-row.lib-desc a {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    left: 20px;
+}
+.box-shadow {
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+.navbar-trans {
+    background-color: #105a6b81;
+    border: none;
+    transition: top 1s;
+}
+.navbar-doublerow > .navbar {
+    display: block;
+    padding: 0 auto;
+    margin: 0 auto;
+    min-height: 25px;
+}
+.navbar-doublerow .nav {
+    padding: 0 auto;
+}
+.navbar-doublerow .dividline {
+    margin: 5px 100px;
+    padding-top: 1px;
+    background-color: inherit;
+}
+.hr {
+    margin: 0;
+    border: 1.5px solid #fff;
+    width: 100%;
+}
+.navbar-doublerow .navbar-top ul > li > a {
+    padding: 10px auto;
+    font-size: 12px;
+}
+.navbar-doublerow .navbar-down .navbar-brand {
+    padding: 0 auto;
+    float: left;
+    color: #fff;
+    font-size: 32px;
+}
+.navbar-doublerow .navbar-down ul > li > a {
+    font-size: 16px;
+    color: #fff;
+    transition: border-bottom 0.2s ease-in, transform 0.2s ease-in-out;
+}
+.navbar-doublerow .navbar-down ul > li > a:hover {
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+.navbar-doublerow .navbar-down .dropdown {
+    padding: 5px;
+    color: #000;
+}
+.navbar-doublerow .navbar-down .dropdown ul > li > a,
+.navbar-doublerow .navbar-down .dropdown ul > li > a:hover {
+    color: #000;
+    border-bottom: none;
+}
+.navbar-doublerow.navbar-trans.afterscroll {
+    top: -50px;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+.text-white,
+.text-white-hover:hover {
+    color: #fff !important;
+}
+.light-grey {
+    color: #000 !important;
+    background-color: #e6e9ed !important;
+}
+.imageSize {
+    width: 50%;
+}
+#MainNavBar {
+    height: 80px;
+}
+#UpperNavBar {
+    height: 50px;
+}
+#WebNavBar {
+    position: absolute;
+    display: block;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+#jitLankLogo {
+    width: 120px;
+    height: 100px;
+}
+#dividline2 {
+    position: absolute;
+    display: block;
+    width: 60%;
+    margin-left: 35%;
+}
+#LogoName,
+.contactUsH1,
+.controls {
+    margin-left: 10%;
+}
+#LogoName {
+    margin-bottom: 5%;
+}
+#logoNameText {
+    font-size: 20px;
+}
+#DownMenu {
+    margin-top: 25px;
+}
+#socialLinksDiv {
+    margin-left: 38%;
+}
+#socialLinks a {
+    font-size: 14px;
+}
+#socialLinks a:hover {
+    font-size: 16px;
+}
+#tripAdvisorLogo {
+    z-index: 99999999;
+    position: absolute;
+    display: block;
+    margin-top: 12%;
+    margin-left: 76%;
+    width: 300px;
+    height: 230px;
+}
+#tripAdvisorBtn {
+    z-index: 999999999999;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 40px;
+    background-color: #4dc2d6;
+    border: none;
+    margin-top: 28%;
+    margin-left: 83%;
+    color: #000;
+    font-size: 14px;
+    text-decoration: none;
+}
+#tripAdvisorBtn:hover {
+    transform: scale(1.2);
+}
+#footerLogo {
+    margin-top: 2%;
+    width: 250px;
+    height: 180px;
+}
+#MobileMenu,
+#contactInfo {
+    display: none;
+}
+.contactUsH1 {
+    margin-top: 10%;
+}
+.contactUS {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    height: 550px;
+    background-color: #f5f5f5;
+}
+#contactUsImg {
+    width: 99%;
+    height: 550px;
+}
+.fade-out {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+.fade-out.hide {
+    opacity: 0;
+}
+.textfive2,
+.welcomeNote {
+    padding-left: 5% !important;
+}
+.welcomeNote,
+.welcomeNote2 {
+    padding-right: 2% !important;
+}
+.textSix {
+    color: #00d5ff;
+    font-size: 45px;
+    font-weight: 900;
+}
+.textfive,
+.textfive2 {
+    color: #4a4a4a;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+    padding-top: 10px;
+}
+.lBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen and (max-width: 600px) {
+    .imageSize {
+        width: 15%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10%;
+    }
+    #contactInfo,
+    #logoNameText {
+        position: absolute;
+        margin-left: 25%;
+    }
+    #home ul,
+    .hambrg {
+        position: relative;
+    }
+    #MobileMenu,
+    .subfooter {
+        text-align: center;
+    }
+    #MobileNavBar {
+        background-color: #105b6b;
+    }
+    #jitLankLogo {
+        width: 80px;
+        height: 60px;
+    }
+    #WebNavBar {
+        margin-top: 15px;
+        margin-left: 5%;
+    }
+    #MainNavBar {
+        height: 40px;
+    }
+    #UpperNavBar {
+        height: 100px;
+    }
+    #logoNameText {
+        margin-top: 5px;
+        font-size: 24px;
+    }
+    .hambrg {
+        cursor: pointer;
+        display: block;
+        margin-right: 20px;
+        margin-bottom: 5px;
+        padding-bottom: 10px;
+    }
+    .hambrg .line {
+        width: 30px;
+        height: 3px;
+        background: #f5f5f5;
+        margin: 6px 0;
+    }
+    #contactInfo {
+        display: block;
+        margin-top: 50px;
+    }
+    #tripAdvisorBtn {
+        margin-top: 72%;
+        margin-left: 60%;
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+    }
+    #tripAdvisorLogo {
+        margin-top: 35%;
+        margin-left: 50%;
+        width: 160px;
+        height: 135px;
+    }
+    #MobileMenu,
+    .servicesANDtours figure {
+        margin-top: 50px;
+    }
+    @media (max-width: 767px) {
+        .mobile-nav-container {
+            margin-right: 0;
+            margin-left: 0;
+            width: 100%;
+            padding: 0;
+        }
+    }
+    #MobileMenu {
+        background-color: #fcfcfc;
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: opacity 0.5s, transform 0.3s;
+    }
+    #MobileMenu.show {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    #MobileMenu p {
+        padding: 15px 0;
+        color: #000;
+        font-size: 18px;
+        border-bottom: 1px solid #ece9e9;
+    }
+    #MobileMenu a {
+        text-decoration: none;
+    }
+    #home {
+        height: 600px;
+        width: 100%;
+    }
+    #home ul {
+        background-size: auto;
+        width: 100%;
+        height: 100%;
+    }
+    .slider-title {
+        margin: 400px 30% 100px;
+        font-size: 20px;
+        color: #9fa8a1;
+    }
+    #DayAndRoundSummery {
+        height: auto;
+        margin-bottom: 50px;
+        width: 100%;
+        margin-left: 3%;
+    }
+    .DayAndRoundSummeryItem {
+        width: 90%;
+        height: auto;
+    }
+    #contactUs {
+        padding-top: 0;
+        height: 20px;
+    }
+    .contactUS {
+        height: 630px;
+    }
+    .controls {
+        margin-right: 10%;
+    }
+    #contactUsImgDiv {
+        display: none;
+    }
+    #footerLogoDiv {
+        width: 100%;
+        height: auto;
+    }
+    .imagemain,
+    .imagemain2,
+    .imagemain3 {
+        width: 100% !important;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.conUs {
+    margin-bottom: 10% !important;
+    padding-top: 5% !important;
+}
+.welcomeNote {
+    padding-top: 13% !important;
+}
+.welcomeNote2 {
+    padding-top: 5% !important;
+    padding-left: 3% !important;
+}
+.welcomeNotePadding {
+    padding-bottom: 5% !important;
+}
+@media only screen and (max-width: 400px) {
+    .imageINwelcome {
+        width: 100% !important;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .daAndRound {
+        padding-right: 15% !important;
+    }
+}

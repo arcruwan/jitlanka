@@ -1,0 +1,327 @@
+@media only screen and (max-width: 1199px) {
+    .navbar-default-white .navbar-toggle .icon-bar {
+        background-color: #000;
+    }
+    .navbar-default-white,
+    .subnav {
+        background: #fff;
+    }
+    .navbar-default-white {
+        margin: 0 auto;
+    }
+    #sub-icon {
+        border-right: 0px solid rgba(0, 0, 0, 0.3);
+    }
+    #main-menu.white {
+        background: #fbfbfb;
+    }
+    .tp-simpleresponsive .tp-caption p {
+        font-size: 14px;
+        left: 232.5px;
+        line-height: 20px;
+        display: none;
+    }
+    .tp-simpleresponsive .tp-caption.slide-big-heading {
+        font-size: 25px !important;
+        line-height: 30px !important;
+    }
+    .tour-packages-list .gal-home a {
+        display: block;
+        width: auto;
+        height: auto;
+        text-align: left;
+        background: 0 0;
+    }
+    .tour-date-list,
+    .view-destination,
+    .view-service,
+    .view-things-to-do {
+        margin-bottom: 60px;
+    }
+    .cont-detail {
+        border: 1px solid #eceaea;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .flex-text.blog-grid,
+    .flex-text.blog-list {
+        display: block;
+    }
+    .blog-list {
+        padding: 0;
+    }
+    .blog-grid figure,
+    .blog-list figure {
+        width: 100%;
+        min-width: 100%;
+        max-width: 100%;
+        margin: 0 !important;
+    }
+    .blog-grid .text-overflow,
+    .blog-list .text-overflow {
+        float: left;
+        width: 100%;
+        padding: 26px 0 0;
+    }
+    .blog-list .text-overflow {
+        padding: 25px;
+    }
+    .blog-detail figure img {
+        margin-bottom: 10px;
+    }
+    .slider-logo1 {
+        width: 100%;
+    }
+    .pull-right img {
+        margin-right: 121px;
+        margin-top: -29px;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .slider-logo2 img {
+        height: 38px;
+        width: 38%;
+    }
+    .slider-logo1 img {
+        height: 71px;
+        width: 38%;
+    }
+    .subnav {
+        width: 100%;
+    }
+    .right {
+        text-align: center;
+    }
+    .slider-images {
+        top: 70px;
+        right: 30px;
+        width: 100%;
+        text-align: right;
+    }
+    .row-padding {
+        padding: 0;
+    }
+    .hvrbox-text {
+        font-size: 9px;
+        left: 87%;
+        margin-right: 293px;
+        margin-top: -1px;
+    }
+    .read-btn {
+        margin-top: -67px;
+    }
+    .btn-send {
+        margin-top: -19px;
+        letter-spacing: 0;
+        line-height: 18px;
+    }
+}
+@media (width: 768px) {
+    .slider-logo1 img,
+    .slider-logo2 img {
+        width: 38%;
+    }
+    .navbar-brand.white img.black {
+        margin-top: -26px;
+    }
+    .slider-images {
+        top: 33px;
+        right: -78px;
+    }
+    .code label {
+        font-size: 10px;
+    }
+    .hvrbox-text {
+        margin-right: 265px;
+        margin-top: -2px;
+        font-size: 11px;
+    }
+}
+@media (width: 375px) {
+    .slider-images {
+        padding: 56px;
+        top: 0;
+        right: -30px;
+    }
+    .slider-logo1 {
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+        max-width: 100%;
+        height: auto;
+    }
+    .hvrbox-text {
+        text-align: center;
+        font-size: 10px;
+        position: relative;
+        left: 80%;
+        -moz-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        display: block;
+        font-weight: 600;
+        background-color: #81bed3;
+        color: #000;
+        margin-left: 2px;
+        margin-right: 180px;
+        margin-top: -1px;
+    }
+    .btn-send {
+        margin-top: 5px;
+    }
+}
+@media (width: 360px) {
+    .slider-logo1 img,
+    .slider-logo2 img {
+        width: 24%;
+    }
+}
+@media (width: 1440px) {
+    .slider-logo1 img,
+    .slider-logo2 img {
+        width: 183px;
+    }
+    .slider-images {
+        right: 78px;
+    }
+    .white nav a {
+        padding: 22px 0 10px 16px;
+    }
+    .hvrbox-text {
+        font-size: 13px;
+        margin-top: -4px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .read-btn {
+        margin-top: -7px;
+        float: right;
+        text-align: center;
+        display: block;
+        position: absolute;
+    }
+}
+@media (min-width: 1441px) and (max-width: 1600px) {
+    .slider-logo1 img,
+    .slider-logo2 img {
+        width: 183px;
+    }
+    .white nav a {
+        padding: 22px 0 10px 2px;
+    }
+    .hvrbox-text {
+        font-size: 13px;
+        margin-top: -4px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .read-btn {
+        margin-top: -7px;
+        float: right;
+        text-align: center;
+        display: block;
+        position: absolute;
+    }
+}
+@media (width: 1280px) {
+    .features .content1 {
+        font-size: 12px;
+    }
+    .max-char {
+        font-size: 11px;
+    }
+    .slider-logo1 img,
+    .slider-logo2 img {
+        width: 53%;
+    }
+    .hvrbox-text {
+        font-size: 13px;
+        margin-top: -4px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    .slider-logo2:hover .hvrbox-text {
+        display: block;
+    }
+}
+@media (width: 414px) {
+    .slider-logo1 img,
+    .slider-logo2 img {
+        width: 24%;
+    }
+    .hvrbox-text {
+        margin-right: 339px;
+    }
+}
+@media (width: 411px) {
+    .slider-logo1 img,
+    .slider-logo2 img {
+        width: 27%;
+    }
+}
+@media (min-width: 1300px) and (max-width: 1439px) {
+    .white nav a {
+        padding: 22px 0 10px 10px;
+    }
+    .hvrbox-text {
+        font-size: 13px;
+        padding: 5px;
+    }
+    .navbar-brand.white img.white {
+        margin-top: -41px;
+        width: 245px;
+    }
+    .read-btn {
+        margin-top: -7px;
+        float: right;
+        text-align: center;
+        display: block;
+        position: absolute;
+    }
+}
+@media (width: 800px) {
+    .hvrbox-text,
+    .slider-logo1 {
+        position: relative;
+        display: inline-block;
+    }
+    .slider-images {
+        width: 20%;
+        top: 21px;
+    }
+    .slider-logo1 {
+        overflow: hidden;
+        max-width: 100%;
+        height: auto;
+    }
+    .hvrbox-text {
+        text-align: center;
+        font-size: 10px;
+        -moz-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font-weight: 600;
+        background-color: #81bed3;
+        color: #000;
+        margin-right: 100px;
+        margin-top: 0;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1299px) {
+    .white nav a {
+        padding: 22px 0 10px 2px;
+    }
+    .navbar-brand.white img.white {
+        margin-top: -30px;
+        width: 218px;
+    }
+    .read-btn {
+        margin-top: -7px;
+        float: right;
+        text-align: center;
+        display: block;
+        position: absolute;
+    }
+}

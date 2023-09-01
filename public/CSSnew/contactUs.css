@@ -1,0 +1,17 @@
+.contactUS {
+    padding-bottom: 10%;
+}
+.contactUsH1 {
+    color: #0bf !important;
+    padding-bottom: 5%;
+    font-size: 50px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: 600;
+}
+.formLabel {
+    color: #515151;
+}
+#contactUsImg {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
