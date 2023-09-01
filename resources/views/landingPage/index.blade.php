@@ -817,10 +817,10 @@
                     <div class="wrap-subfooter">
                         <h4 style="color: rgb(255, 255, 255)">Services</h4>
                         <div class="footer-packages-list">
-                            <a href="#" class="list-packages" style="color: rgb(55, 55, 55)">
+                            <a onclick="redirectToPage();" class="list-packages" style="color: rgb(55, 55, 55)">
                                 Day Tours </a>
                             <br>
-                            <a href="#" class="list-packages" style="color: rgb(55, 55, 55)">
+                            <a onclick="RoundTours();" class="list-packages" style="color: rgb(55, 55, 55)">
                                 Round Tours </a>
                             <br>
                             <a href="#" class="list-packages" style="color: rgb(55, 55, 55)">
