@@ -467,7 +467,7 @@
     
     <section aria-label="gallery" class="tour-package-section no-bottom no-top">
         <div class="container">
-            <h2 class="big-heading onStepHeading " data-aos="fade-up">Summary</span>
+            <h2 class="big-heading onStepHeading " style="text-align: center;" data-aos="fade-up">Pick Your Tour</span>
             </h2>
 
         </div>
@@ -664,9 +664,9 @@
                             data-aos-duration="2000">
 
                             <div>
-                                <h2 class="big-heading" style="padding-left: 40%">About <span>us</span></h2>
+                                <h2 class="big-heading" style="text-align: center; position: relative; top:5px;">About <span>us</span></h2>
                                 <span class="sub-heading-content"></span>
-                                <p class="text-justify welcomeNote" style="color: black; font-size:15px; position: relative; top:-50px;">
+                                <p class="text-justify welcomeNote" style="color: black; font-size:15px; position: relative; top:-10px;">
                                     JIT Lanka Tours is a company comprising of qualified, licensed Tourist Guide Lecturers
                                     and
                                     Drivers who are registered with the Tourism Development Authority (SLTDA) Of Sri Lanka.

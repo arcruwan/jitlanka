@@ -465,7 +465,7 @@ body {
     align-items: center;
     justify-content: center;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 750px) {
     .imageSize {
         width: 15%;
         display: block;
@@ -488,6 +488,8 @@ body {
     }
     #MobileNavBar {
         background-color: #105b6b;
+        position: fixed;
+        top: 0px;
     }
     #jitLankLogo {
         width: 80px;
