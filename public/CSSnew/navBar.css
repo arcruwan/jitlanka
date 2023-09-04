@@ -29,7 +29,7 @@ a:hover {
     background-repeat: no-repeat;
 }
 .site-navbar-wrap {
-    position: absolute;
+    position: fixed;
     z-index: 99;
     width: 100%;
     left: 0;
@@ -47,6 +47,7 @@ a:hover {
 }
 .site-navbar-wrap .site-navbar-top {
     font-size: 0.8rem;
+
     background-color: #00a0c4;
 }
 .site-navbar-top {
