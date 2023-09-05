@@ -58,7 +58,6 @@
                 <a href="{{ route('daytours') }}">Day Tours</a>
                 <a href="{{ route('RoundTours') }}">Round Tours</a>
                 <a href="{{url('/gallery')}}">Gallery</a>
-                <!--<a href="{{ route('home') }}">Services</a>-->
                 <a href="/#aboutusJIT">About</a>
                 <a href="/#contactUsPage">Contact</a>
             </div>
@@ -87,14 +86,10 @@
                             <i class="fa fa-whatsapp text-white" aria-hidden="true"></i>
                             <span class="me-5 liHv" style="color: aliceblue;">( +94 ) 77 162 2335</span>
                             <i class="fa fa-mobile text-white" aria-hidden="true"></i>
-                            <span class="me-5 liHv" style="color: aliceblue;">( +94 ) 76 478 0922</span>
-                            <i class="fa fa-mobile text-white" aria-hidden="true"></i>
                             <span class="me-5 liHv" style="color: aliceblue;">( +94 ) 77 162 2335</span>
                             <i class="fa fa-envelope text-white" aria-hidden="true"></i>
                             <span class="me-5 liHv" style="color: aliceblue;">info@jitlankatours.com</span>
-                            {{-- <a href="#" target="_blank"><span class="fa fa-facebook liHv" >&nbsp;&nbsp;</span></a>
-                            <a href="#" target="_blank"><span class="fa fa-tripadvisor liHv">&nbsp;&nbsp;</span></a>
-                            <a href="#" target="_blank"><span class="fa fa-instagram liHv" >&nbsp;&nbsp;</span></a> --}}
+                         
 
                             <hr class="hr">
 
@@ -109,7 +104,15 @@
                         <div class="col-4">
                             <div class="navbar-header flex-item" id="LogoName">
                                 <div class="navbar-brand text-white" href="#home" id="logoNameText">JIT Lanka Tours</div>
+                                <div class="navbar-brand text-white" id="mobile"><i class="fa fa-whatsapp" aria-hidden="true"></i>&nbsp; +94 77 162 2335
+                                </a></li></div>
+                                <div class="navbar-brand text-white" id="mobile"><i class="fa fa-mobile" aria-hidden="true"></i>&nbsp; +94 77 162 2335
+                                </a></li></div>
                             </div>
+                            
+                            
+                            
+                            
                         </div>
                         <div class="col-8">
                             <nav class="site-navigation text-right text-end" role="navigation">
@@ -206,8 +209,9 @@
                         <div class="wrap-subfooter" id="contactInfoFooter">
                             <h4>Contact Info</h4>
                             <div class="subfooter-content-right" style="color: rgb(55, 55, 55)">No 5/1 Polwattha, Kundasale, Kandy. 20000.</div>
-                            <div class="subfooter-content-right" style="color: rgb(55, 55, 55)">Phone: ( +94 ) 76 478 0922</div>
-                            <div class="subfooter-content-right" style="color: rgb(55, 55, 55)">Phone: ( +94 ) 77 162 2335</div>
+                            <div class="subfooter-content-right" style="color: rgb(55, 55, 55)"><i class="fa fa-whatsapp text-white" aria-hidden="true"></i>   Phone: ( +94 ) 77 162 2335</div>
+                            <div class="subfooter-content-right" style="color: rgb(55, 55, 55)"> <i class="fa fa-mobile text-white" aria-hidden="true"></i>   Phone: ( +94 ) 77 162 2335</div>
+                            <div class="subfooter-content-right" style="color: rgb(55, 55, 55)"> <i class="fa fa-mobile text-white" aria-hidden="true"></i>   Phone: ( +94 ) 76 4780922</div>
                             <div class="subfooter-content-right" style="color: rgb(55, 55, 55)">Email: info@jitlankatours.com</div>
 
                                 {{-- <div class="logo" id="footerSocialMedia">
